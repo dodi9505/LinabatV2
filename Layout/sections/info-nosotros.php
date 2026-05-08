@@ -4,6 +4,7 @@
     <div class="quienes-grid">
       <div class="quienes-img-wrap reveal">
         <div class="quienes-fake-img">
+          <img src="img/quienes-linabat.png" alt="Ilustración de Linabat con enfoque humano y tecnológico">
           <div class="corner-frame cf-tl"></div>
           <div class="corner-frame cf-br"></div>
         </div>

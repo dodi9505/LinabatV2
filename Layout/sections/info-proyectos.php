@@ -1,4 +1,4 @@
-<!-- PROYECTOS -->
+﻿<!-- PROYECTOS -->
 <section id="proyectos" class="section">
   <div class="container">
     <div class="proy-header">
@@ -8,50 +8,40 @@
       </div>
       <a href="#contacto" class="btn btn-outline reveal">Ver todos →</a>
     </div>
-    <div class="proy-grid">
+    <div class="proy-grid proy-grid-custom">
       <div class="proy-card reveal">
-        <div class="proy-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
-            <rect x="2" y="3" width="20" height="14" rx="2" />
-            <polyline points="8 21 12 17 16 21" />
-          </svg></div>
-        <div class="proy-body"><span class="proy-chip">Blog Científico</span>
-          <h3>Acmor</h3>
-          <p>Blog de artículos científicos de la Academia de Ciencias de Morelos.</p><a href="#"
-            class="proy-link">Ver caso →</a>
+        <div class="proy-img proy-img-cover proy-img-acmor-logo">
+          <img src="img/acmorlogo.jpg" alt="Logo de la Academia de Ciencias de Morelos">
+        </div>
+        <div class="proy-body">
+          <span class="proy-chip">Colaboración y mantenimiento</span>
+          <h3>ACMor</h3>
+          <p>Sistema de la Academia de Ciencias de Morelos. Apoyamos en su creación y actualmente brindamos mantenimiento para su funcionamiento y actualización.</p>
+          <a href="https://acmor.org/" class="proy-link" target="_blank" rel="noopener noreferrer">Visitar sitio →</a>
         </div>
       </div>
+
       <div class="proy-card reveal delay-1">
-        <div class="proy-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-          </svg></div>
-        <div class="proy-body"><span class="proy-chip">Página web</span>
-          <h3>Ingeniería IDE</h3>
-          <p>Página web instalaciones eléctricas.</p><a href="#"
-            class="proy-link">Ver caso →</a>
+        <div class="proy-img proy-img-cover proy-img-avi-logo">
+          <img src="img/linabat-avi-logo.png" alt="Logo de Linabat-AVI">
+        </div>
+        <div class="proy-body">
+          <span class="proy-chip">Sistema web</span>
+          <h3>Linabat-AVI</h3>
+          <p>Sistema web para la administración de un punto de venta, pensado para gestionar ventas, inventario, clientes y operación comercial desde un solo lugar.</p>
+          <a href="#contacto" class="proy-link">Solicitar información →</a>
         </div>
       </div>
+
       <div class="proy-card reveal">
-        <div class="proy-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
-            <line x1="18" y1="20" x2="18" y2="10" />
-            <line x1="12" y1="20" x2="12" y2="4" />
-            <line x1="6" y1="20" x2="6" y2="14" />
-          </svg></div>
-        <div class="proy-body"><span class="proy-chip">Sistema Web</span>
-          <h3>Linabat AVI</h3>
-          <p>Sistema de Administración de Inventarios para PyMEs.</p><a href="#"
-            class="proy-link">Ver caso →</a>
+        <div class="proy-img proy-img-cover proy-img-clinical">
+          <img src="img/linabat-clinical.png" alt="Linabat-Clinical, sistema para gestión de pacientes y citas">
         </div>
-      </div>
-      <div class="proy-card reveal delay-1">
-        <div class="proy-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
-            <circle cx="12" cy="12" r="10" />
-            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-          </svg></div>
-        <div class="proy-body"><span class="proy-chip">Branding + Web</span>
-          <h3>Grupo Electrum</h3>
-          <p>Estrategia de marca, sitio web y gestión de sitio en ramo eléctrico.</p><a href="#"
-            class="proy-link">Ver caso →</a>
+        <div class="proy-body">
+          <span class="proy-chip">Sistema clínico</span>
+          <h3>Linabat-Clinical</h3>
+          <p>Plataforma para gestionar citas, pacientes e historial de consultas. Permite administrar pacientes, registrar notas, generar citas y dar seguimiento a la atención.</p>
+          <a href="#contacto" class="proy-link">Solicitar información →</a>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-<!-- CONTACTO -->
+﻿<!-- CONTACTO -->
 <section id="contacto" class="section">
   <div class="container">
     <div style="text-align:center;margin-bottom:3rem;" class="reveal">
@@ -37,14 +37,6 @@
               <p>Ubicación</p><small>Morelos, México</small>
             </div>
           </div>
-        </div>
-        <div style="display:flex;gap:.75rem;margin-top:1.8rem;flex-wrap:wrap;">
-          <a href="#" class="btn btn-outline"
-            style="padding:.55rem 1.2rem;font-size:.78rem;border-radius:99px;">LinkedIn</a>
-          <a href="#" class="btn btn-outline"
-            style="padding:.55rem 1.2rem;font-size:.78rem;border-radius:99px;">Instagram</a>
-          <a href="#" class="btn btn-outline"
-            style="padding:.55rem 1.2rem;font-size:.78rem;border-radius:99px;">Facebook</a>
         </div>
       </div>
       <div class="form-wrap reveal delay-1">
@@ -87,7 +79,6 @@
             <textarea name="mensaje" required></textarea>
           </div>
 
-          <!-- Honeypot (oculto) -->
           <input type="text" name="website" style="display:none">
 
           <button type="submit" class="btn-submit">
