@@ -9,19 +9,16 @@ require '../libs/PHPMailer/src/Exception.php';
 
 header('Content-Type: application/json');
 
-// SOLO POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   exit(json_encode(['ok' => false]));
 }
 
-// CAMPOS (solo los de tu form)
-$nombre = $_POST['nombre'] ?? '';
-$empresa = $_POST['empresa'] ?? '';
-$email = $_POST['email'] ?? '';
-$servicio = $_POST['servicio'] ?? '';
-$mensaje = $_POST['mensaje'] ?? '';
+$nombre = trim($_POST['nombre']) ?? '';
+$empresa = trim($_POST['empresa']) ?? '';
+$email = trim($_POST['email']) ?? '';
+$servicio = trim($_POST['servicio']) ?? '';
+$mensaje = trim($_POST['mensaje']) ?? '';
 
-// VALIDACIÓN SIMPLE
 if (!$nombre || !$email || !$servicio || !$mensaje) {
   exit(json_encode(['ok' => false, 'msg' => 'Faltan campos']));
 }
@@ -36,7 +33,7 @@ try {
   $mail->Host = 'mail.linabat.com';
   $mail->SMTPAuth = true;
   $mail->Username = 'contacto@linabat.com';
-  $mail->Password = 'l1n4b4t-conTACTO$@'; // <-- CAMBIA
+  $mail->Password = 'l1n4b4t-conTACTO$@';
   $mail->SMTPSecure = 'ssl';
   $mail->Port = 465;
 
