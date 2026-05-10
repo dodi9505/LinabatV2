@@ -10,7 +10,7 @@
   <link rel="shortcut icon" href="img/logo.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.11.0/sweetalert2.css">
   <script src="js/sweetalert2.all.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=<?= filemtime('css/style.css') ?>">
   <script src="js/enviar-email.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
@@ -26,7 +26,7 @@
     <?php include 'layout/sections/info-contacto.php'; ?>
     <?php include 'layout/footer.php' ?>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js?v=<?= filemtime('js/script.js') ?>"></script>
 </body>
 
 </html>
